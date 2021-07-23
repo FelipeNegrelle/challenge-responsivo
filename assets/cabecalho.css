@@ -1,9 +1,0 @@
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-}
-
-.cabecalho__titulo {
-    font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-}

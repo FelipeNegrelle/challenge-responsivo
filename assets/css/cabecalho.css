@@ -1,0 +1,28 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem;
+}
+
+.cabecalho__titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--laranja);
+}
+
+.cabecalho__navegacao {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.cabecalho__navegacao :visited {
+    color: var(--cinza);
+}
+
+.cabecalho__navegacao-lista {
+    display: flex;
+    width: 30rem;
+    flex-direction: row;
+    justify-content: space-between;
+}

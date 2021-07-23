@@ -1,0 +1,43 @@
+.conteudo {
+    color: var(--cinza);
+    padding: 1rem 0;
+}
+
+.conteudo__divisao {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    padding-left: 10rem;
+}
+
+.conteudo__titulo {
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: var(--cinza);
+    float: left;
+}
+
+.conteudo__texto {
+    font-size: 3rem;
+    margin: 2.5rem 0;
+}
+
+.conteudo__botao {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--laranja);
+    color: whitesmoke;
+    border-radius: 1.2rem;
+}
+
+.conteudo__botao:visited {
+    color: whitesmoke
+}
+
+.imagem {
+    width: 60%;
+    float: right;
+}

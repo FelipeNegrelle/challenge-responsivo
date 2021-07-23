@@ -4,13 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <title>Amazing Graphics</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="base.css">
+
+    <!-- stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/felipenegrelle/reset.css@e5bfbdc/reset.css">
 
-    <link rel="stylesheet" href="assets/cabecalho.css">
-    <link rel="stylesheet" href="assets/conteudo.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+
+    <link rel="stylesheet" href="assets/css/conteudo.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,10 +28,10 @@
         <section class="cabecalho">
             <h2 class="cabecalho__titulo">DevChallenge</h2>
             <nav class="cabecalho__navegacao">
-                <ul>
-                    <li class="cabecalho__navegacao-item">Home</li>
-                    <li class="cabecalho__navegacao-item">Features</li>
-                    <li class="cabecalho__navegacao-item">Contact</li>
+                <ul class="cabecalho__navegacao-lista">
+                    <li class="cabecalho__navegacao-item"><a href="#">Home</a></li>
+                    <li class="cabecalho__navegacao-item"><a href="#">Features</a></li>
+                    <li class="cabecalho__navegacao-item"><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </section>
@@ -29,11 +39,13 @@
 
     <main>
         <section class="conteudo">
-            <h2 class="conteudo__titulo"></h2>
-            <p class="conteudo__texto"></p>
-            <a href="" class="conteudo__botao"></a>
+            <div class="conteudo__divisao">
+                <h2 class="conteudo__titulo">Create amazing graphics</h2>
+                <p class="conteudo__texto">Colaborate and create beatiful graphics with your team</p>
+                <a href="#" class="conteudo__botao">Start now</a>
+            </div>
+            <img src="assets/team.jpg" alt="time de programação" class="imagem">
         </section>
-        <img src="assets/team.jpg" alt="time de programação" class="imagem">
     </main>
 </body>
 
