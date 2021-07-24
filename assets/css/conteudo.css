@@ -1,21 +1,20 @@
 .conteudo {
     color: var(--cinza);
     padding: 1rem 0;
+    display: flex;
 }
 
 .conteudo__divisao {
-    position: absolute;
     display: flex;
+    position: absolute;
     flex-direction: column;
-    width: 40rem;
     padding-left: 10rem;
 }
 
 .conteudo__titulo {
-    font-size: 5.5rem;
+    font-size: 7rem;
     font-weight: 700;
     color: var(--cinza);
-    float: left;
 }
 
 .conteudo__texto {
@@ -23,11 +22,16 @@
     margin: 2.5rem 0;
 }
 
+.conteudo__botao-span {
+    margin-top: 5.5rem;
+}
+
 .conteudo__botao {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 7rem;
+    margin-top: 10rem;
     background-color: var(--laranja);
     color: whitesmoke;
     border-radius: 1.2rem;
