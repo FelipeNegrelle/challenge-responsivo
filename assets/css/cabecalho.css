@@ -10,14 +10,14 @@
     color: var(--laranja);
 }
 
-.cabecalho__navegacao {
+#cabecalho__navegacao {
     font-size: 2.5rem;
     font-weight: 400;
     color: var(--cinza);
 }
 
-.cabecalho__navegacao :visited {
-    color: var(--cinza);
+#botao__mobile {
+    display: none;
 }
 
 .cabecalho__navegacao-lista {
@@ -25,4 +25,8 @@
     width: 30rem;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#cabecalho__navegacao :visited {
+    color: var(--cinza);
 }
