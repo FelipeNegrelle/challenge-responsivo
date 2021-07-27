@@ -1,7 +1,7 @@
 const botao__mobile = document.getElementById('botao__mobile');
 
 function toggleMenu() {
-    const nav = document.getElementById('cabecalho__navegacao');
+    const nav = document.querySelector('nav');
     nav.classList.toggle('active');
 }
 

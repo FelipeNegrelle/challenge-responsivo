@@ -30,3 +30,19 @@
 .cabecalho__navegacao :visited {
     color: var(--cinza);
 }
+
+@media screen and (max-width:600px) {
+    #botao__mobile {
+        display: block;
+    }
+    .cabecalho__navegacao-lista {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 11rem;
+        right: 0;
+    }
+    nav.active .cabecalho__navegacao-lista {
+        display: flex;
+    }
+}
