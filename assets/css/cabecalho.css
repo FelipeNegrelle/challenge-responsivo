@@ -42,12 +42,13 @@
         top: 13rem;
         right: 0;
         height: 0;
-        z-index: 1000;
+        z-index: 3;
         background: var(--laranja);
         color: white;
         visibility: hidden;
         overflow-y: hidden;
         transition: .3s;
+        transition-delay: .3s;
     }
     .cabecalho__navegacao-lista :visited {
         color: whitesmoke;
@@ -61,7 +62,7 @@
     header .color {
         background-color: var(--laranja);
         color: white;
-        transition: .3s;
+        transition-delay: .3s;
     }
     nav.active .cabecalho__navegacao-lista {
         height: 92vh;
