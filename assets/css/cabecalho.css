@@ -10,6 +10,10 @@
     color: var(--laranja);
 }
 
+.cabecalho__titulo2 {
+    display: none;
+}
+
 .cabecalho__navegacao {
     font-size: 2.5rem;
     font-weight: 400;
@@ -34,21 +38,22 @@
 @media screen and (max-width:600px) {
     #botao__mobile {
         display: block;
+        position: absolute;
+        z-index: 999;
+        right: 8rem;
     }
     .cabecalho__navegacao-lista {
-        display: block;
         position: absolute;
         width: 100%;
-        top: 13rem;
+        top: .2rem;
+        height: 100%;
         right: 0;
-        height: 0;
-        z-index: 3;
+        z-index: 998;
         background: var(--laranja);
         color: white;
         visibility: hidden;
         overflow-y: hidden;
         transition: .3s;
-        transition-delay: .3s;
     }
     .cabecalho__navegacao-lista :visited {
         color: whitesmoke;
@@ -59,13 +64,24 @@
         color: var(--laranja);
         overflow-y: hidden;
     }
+    .cabecalho__titulo .color {
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--laranja);
+        left: 6rem;
+        z-index: 9999;
+    }
     header .color {
         background-color: var(--laranja);
         color: white;
-        transition-delay: .3s;
     }
     nav.active .cabecalho__navegacao-lista {
-        height: 92vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 110vh;
         visibility: visible;
         overflow-y: auto;
     }
