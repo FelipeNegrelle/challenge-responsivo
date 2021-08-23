@@ -24,6 +24,7 @@
 
 .cabecalho__navegacao-lista {
     display: flex;
+    width: 30rem;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -32,60 +33,21 @@
     color: var(--cinza);
 }
 
+.cabecalho__navegacao-item a {
+    justify-content: space-between;
+}
+
 @media screen and (max-width:600px) {
-    #botao__mobile {
+
+#botao-mobile {
         display: block;
         position: absolute;
-        z-index: 999;
-        right: 8rem;
     }
     .cabecalho__navegacao-lista {
-        position: absolute;
-        width: 100%;
-        top: .2rem;
-        height: 100%;
-        right: 0;
-        z-index: 998;
-        background: var(--laranja);
-        color: white;
-        visibility: hidden;
-        overflow-y: hidden;
-        transition: .3s;
+        display: none;
     }
+
     .cabecalho__navegacao-lista :visited {
         color: whitesmoke;
-    }
-    .cabecalho,
-    .cabecalho__titulo {
-        background: white;
-        color: var(--laranja);
-        overflow-y: hidden;
-    }
-    .cabecalho__titulo .color {
-        font-size: 3rem;
-        font-weight: 700;
-        color: var(--laranja);
-        left: 6rem;
-        z-index: 9999;
-    }
-    header .color {
-        background-color: var(--laranja);
-        color: white;
-    }
-    nav.active .cabecalho__navegacao-lista {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 110vh;
-        visibility: visible;
-        overflow-y: auto;
-    }
-    .cabecalho__navegacao-item {
-        padding: 1.5rem 0;
-        margin: 0 3rem;
-        border-bottom: .2rem solid rgba(245, 245, 245, 0.7);
-        text-align: center;
     }
 }
