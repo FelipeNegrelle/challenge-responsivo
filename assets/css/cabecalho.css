@@ -39,9 +39,12 @@
 
 @media screen and (max-width:600px) {
 
-#botao-mobile {
+    #botao-mobile {
         display: block;
         position: absolute;
+    }
+    .cabecalho__titulo {
+        font-size: 3rem;
     }
     .cabecalho__navegacao-lista {
         display: none;
