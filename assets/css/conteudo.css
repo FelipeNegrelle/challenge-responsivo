@@ -5,14 +5,15 @@
 }
 
 .conteudo__divisao {
-    display: flex;
     position: absolute;
+    display: flex;
     width: 45%;
     flex-direction: column;
     padding-left: 10rem;
 }
 
 .conteudo__titulo {
+    width: 55rem;
     font-size: 7rem;
     font-weight: 700;
     color: var(--cinza);
@@ -24,11 +25,15 @@
     margin: 2.5rem 0;
 }
 
+.conteudo__divisao-botao {
+    display: flex;
+}
+
 .conteudo__botao {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
-    padding: 2rem 0;
+    padding: 2rem 10rem;
     background-color: var(--laranja);
     color: whitesmoke;
     border-radius: 1.2rem;
@@ -41,15 +46,16 @@
 .imagem {
     width: 60%;
     float: right;
+    margin-left: 46rem;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
     .conteudo {
         display: flex;
         flex-direction: column-reverse;
         padding: 0;
-        width: 33rem;
+        width: 100%;
         order: 2;
     }
 
@@ -58,13 +64,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 30rem;
-        padding: 4rem 1rem;
+        width: 90%;
+        padding: 4rem 2rem;
         text-align: center;
     }
 
     .conteudo__titulo {
         font-size: 3.7rem;
+        width: fit-content;
     }
 
     .conteudo__texto {
@@ -84,5 +91,6 @@
         top: 10rem;
         padding: 0 10%;
         order: 1;
+        margin: 0%;
     }
 }

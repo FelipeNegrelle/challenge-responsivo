@@ -37,11 +37,10 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
-    #botao-mobile {
+    #botao__mobile {
         display: block;
-        position: absolute;
     }
     .cabecalho__titulo {
         font-size: 3rem;
