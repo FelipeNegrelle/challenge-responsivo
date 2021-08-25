@@ -33,6 +33,7 @@
         border-bottom: .2rem solid whitesmoke;
         margin-bottom: 10rem;
         padding: 0 10rem;
+        text-decoration: none;
     }
 
     .cabecalho__navegacao-item :visited {
