@@ -38,18 +38,24 @@
 }
 
 @media screen and (max-width:768px) {
-
-    #botao__mobile {
-        display: block;
+    .cabecalho {
+        padding: 6rem 3rem;
+        display: flex;
+        justify-content: space-between;
+        transition: .3s;
     }
+
     .cabecalho__titulo {
         font-size: 3rem;
     }
-    .cabecalho__navegacao-lista {
-        display: none;
+
+    #botao__mobile {
+        display: flex;
+        padding: 0 2rem 2rem 2rem;
     }
 
-    .cabecalho__navegacao-lista :visited {
-        color: whitesmoke;
+    .cabecalho__navegacao,
+    .cabecalho__navegacao-lista {
+        display: none;
     }
 }
