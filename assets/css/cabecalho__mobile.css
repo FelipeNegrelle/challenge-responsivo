@@ -36,8 +36,8 @@
         text-decoration: none;
     }
     
-    .cabecalho__navegacao-item:link {
-           color:whitesmoke;
+    a.cabecalho__navegacao-item:link {
+           color:inherit;
     }
 
     .cabecalho__navegacao-item :visited {
