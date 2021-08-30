@@ -27,6 +27,7 @@
     width: 30rem;
     flex-direction: row;
     justify-content: space-between;
+    text-decoration: none;
 }
 
 .cabecalho__navegacao :visited {

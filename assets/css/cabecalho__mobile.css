@@ -37,7 +37,7 @@
     }
     
     a.cabecalho__navegacao-item:link {
-           color:inherit;
+           text-decoration: none;
     }
 
     .cabecalho__navegacao-item :visited {
